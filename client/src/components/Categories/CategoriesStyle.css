@@ -1,0 +1,9 @@
+.buttonItem{
+  /* background-color: black; */
+}
+
+.categoryLine{
+  margin: 10px;
+  z-index: 3;
+  /* padding: 10px; */
+}

@@ -1,0 +1,21 @@
+.aboutImage{
+  max-width: 500px;
+  max-height: 400px;
+  min-width: 500px;
+  min-height: 400px;
+}
+
+.imgDitale{
+  max-width: 500px;
+  max-height: 400px;
+  min-width: 500px;
+  min-height: 400px;
+  object-fit: cover;
+}
+
+.aboutGood{
+  max-width: 800px;
+  max-height: 400px;
+  min-width: 800px;
+  min-height: 400px;
+}

@@ -1,0 +1,82 @@
+category-list * {transition: .4s linear;}
+.category-list {
+  background: white;
+ 
+  list-style-position: inside;
+  padding: 0 10px;
+  margin: 0;
+}
+.category-list li {
+  font-family: "Trebuchet MS", "Lucida Sans";
+  border-bottom: 1px solid #efefef;
+  padding: 10px 0;
+}
+.category-list p {
+  text-decoration: none;
+  color: #555;
+}
+.category-list li span {
+  float: right;
+  display: inline-block;
+  border: 1px solid #efefef;
+  padding: 0 5px;
+  font-size: 13px;
+  color: #999;
+}
+.category-list li:hover p {color: #c93961;}
+.category-list li:hover span {
+  color: #c93961;
+  border: 1px solid #c93961;
+}
+
+.logo {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+
+.info_cont{
+  display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.btnUpload{
+  
+    color: #000000;
+    position: relative;
+    place-content: center;
+    place-items: center;
+    width: fit-content;
+    border-radius: 99px;
+    letter-spacing: 0.05em;
+    border: 1px solid #42b983;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 10px;
+    padding: 0.5rem 1.5rem;
+    white-space: nowrap;
+    font-weight: 700;
+    outline: none;
+    background: #a0d38f;
+    transition: all 0.22s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.avatar {
+  align-items: center;
+  display: block;
+  margin: 0 auto; 
+}
+

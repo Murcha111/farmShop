@@ -1,0 +1,42 @@
+a {
+  text-decoration: none !important;
+  color: rgb(3, 3, 3) !important;
+}
+
+.custom-btn {
+  width: 160px;
+  height: 60px;
+  color: #A6CF98;
+  border-radius: 1px;
+  padding: 10px 25px;
+  margin: 5px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgbas(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+  outline: none;
+ 
+}
+
+.btn-1 {
+  background: #557C55;
+  background: linear-gradient(0deg, #A6CF98 0%, #d8e8d2 100%);
+  padding-top: 5px !important;
+  margin: 10px !important;
+  margin: 2rem;
+}
+
+.btn-1:hover {
+   /* background: rgb(0, 3, 255); */
+  background: linear-gradient(0deg, rgb(168, 197, 175) 0%, #91b391);
+}
+
+/* .buttonsCont{
+
+} */

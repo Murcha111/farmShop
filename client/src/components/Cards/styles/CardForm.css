@@ -1,0 +1,124 @@
+.InputAbout {
+  display: flex;
+  justify-content: space-between;
+}
+.buttonGroupOfCategory {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: stretch;
+  margin-bottom: auto;
+  z-index: 2;
+  position: relative;
+}
+.buttonItem {
+  display: flex;
+}
+.GoodsCategory {
+  align-items: center;
+  text-decoration: underline;
+  font-size: xx-large;
+  padding-top: 50px;
+}
+.BoxForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+.inputsGroup {
+  max-width: 90%;
+ min-width: 70%;
+}
+.inputField {
+  width: 100% !important;
+}
+
+.aboutImage {
+  max-width: 45%;
+  border: solid #557C55;
+  border-radius: 7px;
+  background-color: #F2FFE9;
+}
+.imageGoodParent {
+ 
+  min-width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  
+}
+.mapReviewsParent {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+}
+.aboutGood{
+  border-radius: 7px;
+  min-width: 45%;
+ padding: 15px;
+  min-height: 200px;
+  border: solid #A6CF98;
+background-color: #A6CF98;
+}
+.aboutReviews{
+  /* min-width: 50%; */
+  height: 100px;
+  background-color: #557C55
+ 
+}
+.aboutMap {
+  min-width: 100vh;
+  min-height: 400px;
+  
+  /* background-color: #F2FFE9; */
+}
+.aboutMain {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 80%;
+  width: 100%;
+  position:absolute;
+  margin-top: 96px;
+  box-sizing:border-box;
+  justify-content: space-evenly;
+  background-color: #F2FFE9;
+  background-image: url('../../../../public/images/font.webp');
+}
+ .content {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+ }
+
+ .formContainer {
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  min-width: 70%;
+  max-width: 100%;
+  /* margin-top: 150px; */
+  height: 100vh;
+  background-image: url('../../../../public/images/tom.webp');
+  justify-content: center;
+  /* background-repeat: repeat; */
+ }
+
+ .ItemAbout{
+  font-family: "RalewayRegular";
+  display: flex;
+  justify-content: space-between;
+  font-size:20px ;
+ }
+
+.formContainerItem {
+  width: 25%;
+}

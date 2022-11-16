@@ -1,0 +1,56 @@
+ .neContainer{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+/* 
+.oneCardBox{
+  width: calc(100% / 12 * 3 - 20px);
+}
+
+
+.before{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  font-size: xx-large;
+  height: 250px;
+  align-content: center;
+  
+}
+
+.oneCard{
+  margin: 10px;
+
+
+}
+
+.content{
+  background-color: #ffffff;
+}
+
+.css-6tberd{
+
+}
+
+
+
+.css-et1ao3-MuiTypography-root{
+  font-size: 1.175rem !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.css-1012ceb-MuiAvatar-root{
+  background-color: #bcff5557 !important;
+}
+
+.css-1ri6ub7-MuiPaper-root-MuiCard-root{
+  background-color: #deffe7 !important; */
+

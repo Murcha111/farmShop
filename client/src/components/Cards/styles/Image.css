@@ -1,0 +1,7 @@
+.image{
+  width: 251px;
+  height: 225px;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+

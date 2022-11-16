@@ -1,0 +1,13 @@
+.container {
+  margin-left: 1px;
+  /* position: relative;
+  z-index: 1;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center; */
+}
+
+.tryReg{
+  text-align: center;
+}

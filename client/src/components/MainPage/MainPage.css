@@ -1,0 +1,142 @@
+.mainInfo {
+  /* z-index: 5; */
+  /* background-color: #F3FBF8; */
+  position: relative;
+  width: 100%;
+  margin-top: 150px;
+  min-height: 350px;
+  left: 0px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #fff;
+  align-items: center;
+}
+
+.mainContent{
+max-width: 800px;
+align-items: center;
+}
+
+.mainImg{
+  mix-blend-mode: multiply;   
+  width: 100%;
+height: auto;
+  /* скрыть границу каритнки */
+}
+
+.mainContent_downer{
+  align-items: center;
+  max-width: 800px;
+  display: flex;
+background-color: url('../../../public/images/leaves.jpeg');
+}
+
+/* .vegetableZoom {
+  
+    position: relative;
+    width: 25%;
+    
+} */
+
+/* .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:  #DB6B97;
+  mix-blend-mode: multiply; 
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+  border-radius: 10px;
+  } */
+  /* .vegetableZoom:hover .overlay {
+    transform: scale(1);
+    } */
+    .hover-fold {
+      background: #A6CF98;
+      border: 5px #557C55 solid;
+      border-radius: 5px;
+      height: 310px;
+      margin: 10px auto;
+      -moz-perspective: 1500;
+      -webkit-perspective: 1500;
+      perspective: 1500;
+      position: relative;
+      width: 410px;
+      border-radius: 5px;
+    }
+    .hover-fold h2 {
+      border-bottom: 1px solid #333;
+      margin: 0 40px;
+      padding: 110px 0 2px;
+    }
+    .hover-fold .top {
+      height: 50%;
+      -moz-transition: all 0.5s ease-out;
+      -o-transition: all 0.5s ease-out;
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out;
+      -moz-transform: rotateX(0deg);
+      -ms-transform: rotateX(0deg);
+      -webkit-transform: rotateX(0deg);
+      transform: rotateX(0deg);
+      -moz-transform-origin: 0 100%;
+      -ms-transform-origin: 0 100%;
+      -webkit-transform-origin: 0 100%;
+      transform-origin: 0 100%;
+      -moz-transform-style: preserve-3d;
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      z-index: 10;
+    }
+    .hover-fold .top .face {
+      -moz-backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      position: absolute;
+    }
+    .hover-fold:hover .top {
+      -moz-transform: rotateX(-180deg);
+      -ms-transform: rotateX(-180deg);
+      -webkit-transform: rotateX(-180deg);
+      transform: rotateX(-180deg);
+    }
+    .hover-fold .front {
+      background: url('../../../public/images/leaves.jpeg');
+      height: 100%;
+      /*has to be 100% of .top */
+      
+      width: 100%;
+    }
+    .hover-fold .back {
+      background: #557C55;
+      height: 100%;
+      /*has to be 100% of .top */
+      padding: 0 40px;
+      -moz-transform: rotateX(180deg);
+      -ms-transform: rotateX(180deg);
+      -webkit-transform: rotateX(180deg);
+      transform: rotateX(180deg);
+      width: 100%;
+    }
+    .hover-fold .back p {
+      margin: 0;
+    }
+    .hover-fold .bottom {
+      background: url('../../../public/images/leaves.jpeg') bottom;
+      height: 50%;
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      z-index: 0;
+    }
+     .hover-fold{
+      margin: 5 px;
+     }

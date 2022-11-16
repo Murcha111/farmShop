@@ -1,0 +1,14 @@
+.contant {
+  /* /* min-width: 200px; */
+  width: 50vh; 
+  padding-bottom: 0px;
+  height: 400px;
+}
+
+.item{
+  height: 400px;
+}
+
+.contant img {
+ object-fit: cover;
+}

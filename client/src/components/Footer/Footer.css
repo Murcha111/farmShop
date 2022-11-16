@@ -1,0 +1,24 @@
+.foot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+
+.allFoot{
+  background-color:#A6CF98;
+  height: 100px;
+  
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.allImg{
+  display: flex;
+  flex-direction: row;
+ 
+}
